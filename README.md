@@ -9,16 +9,17 @@ Grafana cloud integrates with the Confluent metrics API.
 **list-resource.sh** lists resource names and IDs that can be scraped into Grafana Cloud for monitoring.
 
 **Doc:** https://grafana.com/docs/grafana-cloud/integrations/integrations/integration-confluent-cloud/
+
 **Blog:** TBD
 
-HOWTO
-Run auth-setup.sh to generate service account and API key.
+**HOWTO**
+Run `auth-setup.sh` to generate service account and API key.
  
 Select Confluent Cloud from the Integrations menu in Grafana Cloud
-IMAGE
+![Integrations Menu](images/integrations.jpg)
 
 Input API key and service IDs for monitoring
-IMAGE
+![API Key](images/api-key.jpg)
 
 View Confluent Cloud dashboard in grafana cloud
-IMAGE
+![Dashboard](images/dashboard.jpg)
