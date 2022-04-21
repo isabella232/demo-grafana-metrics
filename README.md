@@ -2,7 +2,7 @@
 # Confluent Cloud Metrics / Grafana Cloud Demo
 #
 
-Grafana cloud integrates with the Confluent metrics API. 
+Grafana Cloud integrates with the Confluent metrics API. 
 
 **auth-setup.sh** Creates a Confluent Cloud service account for grafana API monitoring, allocates the MetricsViewer role to it, and generates an API key for it.
 
