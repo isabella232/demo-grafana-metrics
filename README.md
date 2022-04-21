@@ -4,7 +4,7 @@
 
 Grafana Cloud integrates with the Confluent metrics API. 
 
-**auth-setup.sh** Creates a Confluent Cloud service account for grafana API monitoring, allocates the MetricsViewer role to it, and generates an API key for it.
+**auth-setup.sh** Creates a Confluent Cloud service account for Grafana API monitoring, allocates the `MetricsViewer` role to it, and generates an API key for it.
 
 **list-resource.sh** lists resource names and IDs that can be scraped into Grafana Cloud for monitoring.
 
@@ -14,7 +14,7 @@ Grafana Cloud integrates with the Confluent metrics API.
 
 **HOWTO**
 
-1. Login to confluent cloud using an account with organization admin privileges.
+1. Use `confluent login` to login to Confluent Cloud using an account with organization admin privileges.
 
 2. Run `auth-setup.sh` to generate service account and API key.
 
