@@ -16,18 +16,18 @@ Grafana cloud integrates with the Confluent metrics API.
 
 1. Login to confluent cloud using an account with organization admin privileges.
 
-1. Run `auth-setup.sh` to generate service account and API key.
+2. Run `auth-setup.sh` to generate service account and API key.
 
-1. Run `list-resource.sh` to obtain resource IDs for components that can be monitored.
+3. Run `list-resource.sh` to obtain resource IDs for components that can be monitored.
  
-1. Select Confluent Cloud from the Integrations menu in Grafana Cloud
+4. Select Confluent Cloud from the Integrations menu in Grafana Cloud
 
 ![Integrations Menu](images/integrations.jpg)
 
-1. Input API key and service IDs for monitoring
+5. Input API key and service IDs for monitoring
 
 ![API Key](images/api-key.jpg)
 
-1. View Confluent Cloud dashboard in grafana cloud
+6. View Confluent Cloud dashboard in grafana cloud
 
 ![Dashboard](images/dashboard.jpg)
